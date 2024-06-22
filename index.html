@@ -3,41 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mixed Tingz - Home</title>
+    <title>Mixed Tings - Home</title>
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Courgette', cursive;
+            background-color: #f5f5dc; /* off-white */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff0000; /* red */
+            padding: 1rem;
+            text-align: center;
+            color: #fff;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0000ff; /* blue */
+            padding: 1rem;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #fff;
+        }
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .content {
+            padding: 2rem;
+        }
+        .products, .about, .clothing, .blog, .contact {
+            margin-bottom: 2rem;
+        }
+        footer {
+            background-color: #ff0000; /* red */
+            text-align: center;
+            padding: 1rem;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .image-section img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 0 auto 1rem;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Mixed Tingz</h1>
+        <h1>Mixed Tings</h1>
     </header>
     <nav>
-        <a href="#products">Products</a>
+        <a href="#products">Hair Products</a>
+        <a href="#clothing">Clothing</a>
         <a href="#about">About Us</a>
         <a href="#blog">Blog</a>
         <a href="#contact">Contact Us</a>
     </nav>
     <section class="hero">
-        <h1>Welcome to Mixed Tingz</h1>
+        <h1>Welcome to Mixed Tings</h1>
     </section>
     <div class="content">
         <section id="products" class="products">
-            <h2>Our Products</h2>
-            <p>Discover our range of hair care products designed for curly and wavy hair.</p>
-            <img src="" alt="Mixed Tings Bottle" style="width: 200px;">
+            <h2>Our Hair Products</h2>
+            <p>Discover our range of hair care products designed for mixed and curly hair.</p>
+            <img src="https://yourusername.github.io/your-repository-name/mixed_tings_bottle_example.png" alt="Mixed Tings Bottle" style="width: 200px;">
+        </section>
+        <section id="clothing" class="clothing">
+            <h2>Our Clothing</h2>
+            <p>Explore our stylish clothing line that complements your unique style.</p>
         </section>
         <section id="about" class="about">
             <h2>About Us</h2>
-            <img src="Screenshot 2024-06-22 at 3.34.24 PM.png" alt="Mixed Tingz" style="width: 100%; max-width: 600px;">
-            <p>Learn more about our mission to bring the best products for textured hair to the UK.</p>
+            <div class="image-section">
+                <img src="https://yourusername.github.io/your-repository-name/image.png" alt="Mixed Tingz">
+            </div>
+            <p>Learn more about our journey and mission to bring the best hair care products and stylish clothing to the UK.</p>
         </section>
         <section id="blog" class="blog">
-            <h2>Social Media</h2>
-            <p>Stay updated with our latest news, hair care tips, and style guides @MixedTingzUK.</p>
+            <h2>Blog</h2>
+            <p>Stay updated with our latest news, hair care tips, style guides, and more.</p>
         </section>
         <section id="contact" class="contact">
             <h2>Contact Us</h2>
-            <p>Get in touch with us for any queries or support at Help@MixedTingz.uk.</p>
+            <p>Get in touch with us for any queries or support.</p>
         </section>
     </div>
     <footer>
